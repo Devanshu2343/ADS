@@ -18,7 +18,7 @@ public class LongestSubString {
 
     public static void main(String[] args) {
         LongestSubString str1 = new LongestSubString();
-        String input = "abcacfgfkfjfgtrd" ;
+        String input = "abcacfgfkfjfgtrdde" ;
         int length = str1.lengthOfLongestSubstring(input);
         System.out.println(length);
     }
