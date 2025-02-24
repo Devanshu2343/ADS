@@ -19,11 +19,9 @@ class SlidingWindowTech {
         
         for (int i = start; i < end; i++) {
             char x = s.charAt(i);
-            
             if (ch[x]) {
                 return false;
             }
-            
             ch[x] = true;
         }
         
@@ -31,7 +29,7 @@ class SlidingWindowTech {
     }
     public static void main(String[] args) {
         SlidingWindowTech solution = new SlidingWindowTech(); 
-        String input = "abcabcbb";
+        String input = "abcabcbabb";
         int result = solution.lengthOfLongestSubstring(input);
         System.out.println(result);
     }
