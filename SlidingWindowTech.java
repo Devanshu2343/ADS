@@ -29,7 +29,7 @@ class SlidingWindowTech {
     }
     public static void main(String[] args) {
         SlidingWindowTech solution = new SlidingWindowTech(); 
-        String input = "abcabcbabbab";
+        String input = "abcabcbabbabab";
         int result = solution.lengthOfLongestSubstring(input);
         System.out.println(result);
     }
